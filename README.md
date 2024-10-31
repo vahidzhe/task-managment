@@ -35,7 +35,7 @@ This project is a task management system that allows users to manage tasks. User
     cp .env.example .env
     ```
     Then open the .env file and update the following settings:
-
+    ```bash
     APP_NAME=Task Management System
     APP_ENV=local
     APP_KEY=base64:...
@@ -57,6 +57,7 @@ This project is a task management system that allows users to manage tasks. User
     MAIL_ENCRYPTION=tls
     MAIL_FROM_ADDRESS=noreply@example.com
     MAIL_FROM_NAME="${APP_NAME}"
+    ```
 4. **Set Up the Database**
 
     ```bash
